@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3 group">
         <Logo className="w-8 h-8 text-foreground group-hover:text-forsythia transition-colors duration-300" />
         <div className="font-mono text-[16px] tracking-[0.1em] text-foreground uppercase font-bold flex items-center group-hover:text-forsythia transition-colors duration-300">
-          XEPHORIX<span className="text-foreground/40 ml-1 font-light group-hover:text-forsythia/50 transition-colors duration-300">AI</span>
+          XEPHORIX
         </div>
       </Link>
       
