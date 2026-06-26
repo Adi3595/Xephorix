@@ -16,9 +16,6 @@ const jetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Xephorix | Autonomous Intelligence Infrastructure",
   description: "Enterprise AI workflow orchestration and neural infrastructure automation.",
-  icons: {
-    icon: "/xephorix.png",
-  },
 };
 
 export default function RootLayout({
