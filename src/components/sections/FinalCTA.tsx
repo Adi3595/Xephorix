@@ -2,7 +2,7 @@
 
 export default function FinalCTA() {
   return (
-    <section className="py-32 px-4 relative overflow-hidden bg-foreground text-background">
+    <section className="w-full py-32 px-4 md:px-16 relative overflow-hidden bg-foreground text-background">
       <div className="absolute inset-0 brutalist-grid opacity-10 pointer-events-none invert"></div>
       
       <div className="relative z-10 text-center space-y-12 max-w-4xl mx-auto">
