@@ -14,6 +14,7 @@ import ProjectInfo from "@/components/sections/ProjectInfo";
 import SecurityCompliance from "@/components/sections/SecurityCompliance";
 import UseCases from "@/components/sections/UseCases";
 import ReviewsGrid from "@/components/sections/ReviewsGrid";
+import Architecture from "@/components/sections/Architecture";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <BentoFeatureGrid />
       <SecurityCompliance />
       <PlatformShowcase />
+      <Architecture />
       <UseCases />
       <PricingMatrix />
       <PerformanceMetrics />
