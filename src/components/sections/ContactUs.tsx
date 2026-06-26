@@ -1,3 +1,5 @@
+"use client";
+
 export default function ContactUs() {
   return (
     <section id="contact" className="w-full py-32 px-4 md:px-16 bg-background relative border-y border-white/[0.05]">
