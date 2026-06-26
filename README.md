@@ -1,67 +1,98 @@
 <div align="center">
-  <img src="public/xephorix.png" alt="Xephorix Logo" width="120" />
-  <h1>XEPHORIX</h1>
-  <p><strong>Decentralized Infrastructure Orchestration Engine</strong></p>
+  <img src="public/xephorix.png" alt="Xephorix Logo" width="140" />
   
-  <p>
-    <a href="#architecture">Architecture</a> • 
-    <a href="#tech-stack">Tech Stack</a> • 
-    <a href="#quickstart">Quickstart</a> • 
-    <a href="#license">License</a>
+  <br />
+  
+  # X E P H O R I X
+  
+  **Decentralized Infrastructure Orchestration Engine**
+
+  [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge&logo=github)](https://github.com/Adi3595/Xephornix)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+  [![Version](https://img.shields.io/badge/version-2.4.99-blue.svg?style=for-the-badge)](https://xephorix.ai)
+  [![Uptime](https://img.shields.io/badge/uptime-99.9999%25-success.svg?style=for-the-badge)](#)
+  
+  <p align="center">
+    <a href="#-core-philosophy">Philosophy</a> • 
+    <a href="#-architecture">Architecture</a> • 
+    <a href="#-tech-stack">Tech Stack</a> • 
+    <a href="#-quickstart">Quickstart</a>
   </p>
 </div>
 
 ---
 
-## ⚡ Overview
+## ⚡ Core Philosophy
 
-**Xephorix** is a high-performance orchestration framework designed to eliminate the latency overhead of traditional legacy systems. We bypass bloated containerization layers by compiling logic directly into **WebAssembly (WASM)**, executing securely across a cryptographically isolated global edge node mesh.
+Modern orchestration is plagued by heavy legacy bloat—fragile containerization, convoluted YAML manifests, and extreme latency overheads. 
 
-We deliver **sub-millisecond execution times** with **99.9999% uptime**, purpose-built for:
-- High-Frequency Trading Algorithms
-- Autonomous Defense & Aerospace Telemetry
-- Massive Parallel Genomic Computing
-- Ultra-Low Latency Edge Logic
+**Xephorix** bypasses the standard container lifecycle. By compiling logic directly into **WebAssembly (WASM)** and deploying it across a cryptographically secured edge node mesh, we achieve **sub-millisecond execution times**. 
+
+*We didn't just build another orchestrator. We rewrote how machines think at scale.*
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Architecture Stack
 
-Xephorix operates on a deeply technical 3-Layer Brutalist Architecture:
+Xephorix operates on a deeply technical 3-Layer Brutalist Architecture. Click to expand each layer:
 
-1. **L_01: Control Plane** 
-   Handles Global Traffic Routing, Cryptographic Key Exchange, and State Synchronization via a hardened Raft consensus algorithm.
-2. **L_02: Execution Engine** 
-   Features our proprietary Zero-Copy Memory Access WASM Runtime directly communicating with hardware acceleration (GPU/TPU/NPU).
-3. **L_03: Edge Nodes** 
-   Air-gapped, bare-metal provisioned hardware distributed globally, backed by instant localized NVMe SSD caching.
+<details>
+<summary><strong>L_01: Control Plane</strong> (Click to expand)</summary>
+
+- **Global Traffic Routing:** Instantly redirects workloads to the node with the lowest latency globally.
+- **Cryptographic Key Exchange:** Ephemeral key generation ensures zero trust between nodes.
+- **Raft Consensus:** Maintains perfect state synchronization across the global mesh.
+</details>
+
+<details>
+<summary><strong>L_02: Execution Engine</strong> (Click to expand)</summary>
+
+- **WASM Neural Runtime:** Compiles directly to binary for near-native execution speed.
+- **Zero-Copy Memory Access:** Eliminates standard memory read/write latency.
+- **Hardware Acceleration:** Native passthrough to connected GPUs, TPUs, and NPUs.
+</details>
+
+<details>
+<summary><strong>L_03: Edge Nodes</strong> (Click to expand)</summary>
+
+- **Bare-Metal Provisioning:** No virtual machines, no host-OS bloat.
+- **Air-Gapped Isolation:** Runtimes are entirely sandboxed away from external network bleed.
+- **NVMe SSD Caching:** Instant localized storage retrieval.
+</details>
 
 ---
 
 ## 💻 Tech Stack
 
-- **Framework:** Next.js 14+ (App Router) & React 18
-- **Styling:** Tailwind CSS (Custom Brutalist Theme & Utility Plugins)
-- **Language:** TypeScript (Strict Typings)
-- **Design Philosophy:** Utilitarian Brutalism, Zero-Bloat, Maximum Contrast
-- **Icons & Graphics:** Inline optimized SVG and Material Symbols
+| Domain | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Framework** | Next.js 14+ (App Router) | High-performance React rendering |
+| **Styling** | Tailwind CSS | Brutalist utility classes & custom grids |
+| **Typing** | TypeScript | Strict type safety for complex neural logic |
+| **Animations**| Pure CSS & React | Zero-dependency micro-interactions |
 
 ---
 
 ## 🚀 Quickstart
 
-Initialize your local Xephorix node development environment:
+Initialize your local Xephorix node development environment in seconds.
 
+### 1. Provision the Environment
 ```bash
-# 1. Clone the repository
-git clone https://github.com/Adi3595/Xephornix.git
-cd xephorix
+$ git clone https://github.com/Adi3595/Xephornix.git
+$ cd xephorix
+$ npm install
+```
 
-# 2. Install dependencies
-npm install
+### 2. Boot the Control Plane
+```bash
+$ npm run dev
 
-# 3. Launch the development server
-npm run dev
+> xephorix-node-cluster@0.1.0 dev
+> next dev
+> [INFO] Initializing neural pathways...
+> [OK] Connecting to global mesh network...
+> Ready in 841ms.
 ```
 Access the local control plane at `http://localhost:3000`.
 
@@ -69,18 +100,14 @@ Access the local control plane at `http://localhost:3000`.
 
 ## 🛡️ Security & Compliance
 
-Xephorix is designed from the ground up as a **Zero-Trust** execution environment:
-- **Homomorphic Encryption:** Process logic directly on encrypted data. Node operators cannot inspect your runtime state.
-- **Air-Gapped Isolation:** Runtimes are entirely sandboxed away from the host OS with zero external network bleed.
-- **SOC 2 Type II Compliant:** Architecture verified for the strictest enterprise data privacy standards.
+Xephorix is designed from the ground up as a **Zero-Trust** execution environment.
+
+- 🔒 **Homomorphic Encryption:** Process logic directly on encrypted data. Node operators cannot inspect your runtime state.
+- 🏢 **SOC 2 Type II Compliant:** Architecture verified for the strictest enterprise data privacy standards.
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
-
 <div align="center">
-  <br />
+  <p>Licensed under the <strong>MIT License</strong>.</p>
   <code>© 2024 XEPHORIX SYSTEMS. ALL RIGHTS RESERVED.</code>
 </div>
