@@ -30,23 +30,9 @@ const features = [
 ];
 
 export default function BentoFeatureGrid() {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
-
   return (
-    <section id="network" className="w-full py-20 px-4 md:px-16 bg-background relative z-10 border-y border-white/[0.05]">
+    <section id="infrastructure" className="w-full py-32 px-4 md:px-16 bg-background relative border-t border-white/[0.05]">
       <div className="max-w-7xl mx-auto w-full">
-        <h2 className="font-mono text-3xl md:text-4xl text-foreground uppercase mb-12 border-b border-white/10 pb-4 font-bold tracking-tighter">
-          CORE_CAPABILITIES
-        </h2>
-        
-        {/* 
-          Responsive Hybrid Layout
-          Mobile: Flex Column (Accordion)
-          Desktop: CSS Grid (Bento)
-        */}
-        <div 
-          className="grid grid-cols-1 md:grid-cols-3 gap-6"
-          style={{ perspective: "1000px" }}
         >
           {features.map((feature, index) => {
             const isActive = activeIndex === index;
