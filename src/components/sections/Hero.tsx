@@ -6,17 +6,17 @@ export default function Hero() {
       <InteractiveBackground />
       <div className="scanline z-0 pointer-events-none" />
 
-      {/* Micro-details top corners */}
-      <div className="absolute top-32 left-16 font-mono text-[10px] text-foreground/30 hidden md:block tracking-widest reveal-up" style={{animationDelay: '0.1s'}}>
-        SYS_COORD: 47.6062° N, 122.3321° W<br />
-        STATUS: ACTIVE_NODE
-      </div>
-      <div className="absolute top-32 right-16 font-mono text-[10px] text-foreground/30 hidden md:block text-right tracking-widest reveal-up" style={{animationDelay: '0.1s'}}>
-        XPH_OS // V.2.4.99<br />
-        [ORCHESTRATION_LAYER]
-      </div>
-
       <div className="max-w-7xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between gap-16">
+        
+        {/* Micro-details aligned to grid bounds */}
+        <div className="absolute -top-16 left-0 font-mono text-[10px] text-foreground/30 hidden md:block tracking-widest reveal-up" style={{animationDelay: '0.1s'}}>
+          SYS_COORD: 47.6062° N, 122.3321° W<br />
+          STATUS: ACTIVE_NODE
+        </div>
+        <div className="absolute -top-16 right-0 font-mono text-[10px] text-foreground/30 hidden md:block text-right tracking-widest reveal-up" style={{animationDelay: '0.1s'}}>
+          XPH_OS // V.2.4.99<br />
+          [ORCHESTRATION_LAYER]
+        </div>
         
         {/* Left Typography Block */}
         <div className="w-full lg:w-1/2 flex flex-col items-start gap-10 relative">
