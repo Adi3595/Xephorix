@@ -16,6 +16,9 @@ import UseCases from "@/components/sections/UseCases";
 import ReviewsGrid from "@/components/sections/ReviewsGrid";
 import Architecture from "@/components/sections/Architecture";
 import Integrations from "@/components/sections/Integrations";
+import AboutUs from "@/components/sections/AboutUs";
+import CareersSection from "@/components/sections/CareersSection";
+import ContactUs from "@/components/sections/ContactUs";
 
 export default function Home() {
   return (
@@ -24,6 +27,7 @@ export default function Home() {
       <Hero />
       <TrustedBy />
       <ProjectInfo />
+      <AboutUs />
       <BentoFeatureGrid />
       <SecurityCompliance />
       <PlatformShowcase />
@@ -31,9 +35,11 @@ export default function Home() {
       <UseCases />
       <Integrations />
       <PricingMatrix />
+      <CareersSection />
       <PerformanceMetrics />
       <Testimonials />
       <ReviewsGrid />
+      <ContactUs />
       <FAQAccordion />
       <FinalCTA />
       <Footer />
