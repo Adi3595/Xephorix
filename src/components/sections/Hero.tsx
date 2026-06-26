@@ -1,9 +1,24 @@
-import InteractiveBackground from "@/components/ui/InteractiveBackground";
+
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[110vh] flex flex-col justify-center px-4 md:px-16 pt-32 pb-32 overflow-hidden bg-oceanic-noir">
-      <InteractiveBackground />
+    <section className="relative min-h-[110vh] flex flex-col justify-center px-4 md:px-16 pt-32 pb-32 overflow-hidden bg-transparent">
+      
+      {/* 3D Video Background */}
+      <div className="absolute inset-0 z-0">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          className="w-full h-full object-cover opacity-60"
+        >
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-abstract-technology-network-connection-background-27898-large.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay to ensure text remains readable over the video */}
+        <div className="absolute inset-0 bg-gradient-to-b from-oceanic-noir/80 via-transparent to-oceanic-noir"></div>
+      </div>
+      
       <div className="scanline z-0 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto w-full relative z-10 flex flex-col lg:flex-row items-center justify-between gap-16">
