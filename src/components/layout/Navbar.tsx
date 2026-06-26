@@ -19,8 +19,8 @@ export default function Navbar() {
       
       <nav className="hidden md:flex gap-10 items-center">
         {['Network', 'Infrastructure', 'Pricing', 'Docs'].map((item) => {
-          const path = `/${item.toLowerCase()}`;
-          const isActive = pathname === path;
+          const path = item === 'Docs' ? '/docs' : `/#${item.toLowerCase()}`;
+          const isActive = pathname === `/${item.toLowerCase()}`; // Still true if on /docs
           return (
             <Link 
               key={item} 

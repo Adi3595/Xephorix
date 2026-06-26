@@ -1,6 +1,6 @@
 export default function PlatformShowcase() {
   return (
-    <section className="w-full py-20 px-4 md:px-16 bg-oceanic-noir/10 border-y border-white/[0.05] relative z-10">
+    <section id="infrastructure" className="w-full py-20 px-4 md:px-16 bg-oceanic-noir/10 border-y border-white/[0.05] relative z-10">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Visual Side */}

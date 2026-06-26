@@ -17,13 +17,18 @@ export default function ReviewsGrid() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {reviews.map((r, i) => (
-            <div key={i} className="border border-white/10 p-8 bg-oceanic-noir/10 hover:border-forsythia/30 transition-colors flex flex-col justify-between h-full">
-              <p className="font-sans text-foreground/70 font-light leading-relaxed italic mb-8">
+            <div key={i} className="group border border-white/10 p-8 bg-oceanic-noir/10 hover:bg-oceanic-noir/40 hover:border-forsythia/30 hover:scale-[1.02] hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between h-full cursor-pointer hover:shadow-[0_10px_30px_rgba(255,200,1,0.05)]">
+              <p className="font-sans text-foreground/70 font-light leading-relaxed italic mb-8 group-hover:text-foreground transition-colors duration-300">
                 "{r.text}"
               </p>
-              <div className="mt-auto">
-                <p className="font-mono text-sm text-forsythia uppercase font-bold">{r.author}</p>
-                <p className="font-mono text-[10px] text-foreground/40 uppercase tracking-widest">{r.co}</p>
+              <div className="mt-auto flex items-center justify-between">
+                <div>
+                  <p className="font-mono text-sm text-forsythia uppercase font-bold group-hover:text-mystic-mint transition-colors duration-300">{r.author}</p>
+                  <p className="font-mono text-[10px] text-foreground/40 uppercase tracking-widest group-hover:text-foreground/80 transition-colors duration-300">{r.co}</p>
+                </div>
+                <span className="material-symbols-outlined text-white/10 group-hover:text-forsythia/50 transition-colors duration-300 transform group-hover:translate-x-2">
+                  arrow_forward
+                </span>
               </div>
             </div>
           ))}

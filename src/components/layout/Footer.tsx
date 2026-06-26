@@ -20,8 +20,8 @@ export default function Footer() {
           <div className="space-y-4">
             <p className="text-forsythia font-bold">COMPANY</p>
             <ul className="space-y-3 text-foreground/40">
-              <li><a className="hover:text-foreground transition-colors" href="#">About Us</a></li>
-              <li><a className="hover:text-foreground transition-colors" href="#">Contact Us</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="/#network">About Us</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="mailto:admin@xephorix.ai">Contact Us</a></li>
               <li><a className="hover:text-foreground transition-colors" href="#">Careers</a></li>
             </ul>
           </div>
@@ -39,10 +39,10 @@ export default function Footer() {
           <p className="font-mono text-[10px] text-foreground/30 uppercase tracking-widest text-center md:text-left">
             © 2024 XEPHORIX SYSTEMS. ALL RIGHTS RESERVED.
           </p>
-          <div className="flex gap-6">
-            <span className="material-symbols-outlined text-foreground/40 hover:text-forsythia transition-colors">terminal</span>
-            <span className="material-symbols-outlined text-foreground/40 hover:text-forsythia transition-colors">hub</span>
-            <span className="material-symbols-outlined text-foreground/40 hover:text-forsythia transition-colors">dns</span>
+          <div className="flex gap-6 font-mono text-[10px] uppercase font-bold tracking-widest">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-foreground/40 hover:text-forsythia transition-colors">INSTA</a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="text-foreground/40 hover:text-forsythia transition-colors">X</a>
+            <a href="https://github.com/Adi3595/Xephornix" target="_blank" rel="noopener noreferrer" className="text-foreground/40 hover:text-forsythia transition-colors">GITHUB</a>
           </div>
         </div>
       </div>

@@ -201,7 +201,7 @@ export default function PricingMatrix() {
   ];
 
   return (
-    <section className="py-32 px-4 md:px-16 bg-oceanic-noir/10">
+    <section id="pricing" className="py-32 px-4 md:px-16 bg-oceanic-noir/10">
       <div className="max-w-4xl mx-auto">
         <PricingProvider>
           <PricingControls />
