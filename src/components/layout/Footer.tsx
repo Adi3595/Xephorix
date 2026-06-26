@@ -18,11 +18,19 @@ export default function Footer() {
             </ul>
           </div>
           <div className="space-y-4">
+            <p className="text-forsythia font-bold">COMPANY</p>
+            <ul className="space-y-3 text-foreground/40">
+              <li><a className="hover:text-foreground transition-colors" href="#">About Us</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="#">Contact Us</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div className="space-y-4">
             <p className="text-forsythia font-bold">LEGAL</p>
             <ul className="space-y-3 text-foreground/40">
-              <li><a className="hover:text-foreground transition-colors" href="#">Framework</a></li>
-              <li><a className="hover:text-foreground transition-colors" href="#">Security</a></li>
-              <li><a className="hover:text-foreground transition-colors" href="#">Privacy</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="#">Terms & Conditions</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="#">Privacy Policy</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="#">Security & SOC 2</a></li>
             </ul>
           </div>
         </div>
