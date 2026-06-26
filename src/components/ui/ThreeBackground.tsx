@@ -30,7 +30,7 @@ export default function ThreeBackground() {
     const particleCount = 400;
     const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(particleCount * 3);
-    const velocities = [];
+    const velocities: {x: number, y: number, z: number}[] = [];
 
     for (let i = 0; i < particleCount; i++) {
       positions[i * 3] = (Math.random() - 0.5) * 400;     // x
