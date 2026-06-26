@@ -12,9 +12,9 @@ export default function Footer() {
           <div className="space-y-4">
             <p className="text-forsythia font-bold">RESOURCES</p>
             <ul className="space-y-3 text-foreground/40">
-              <li><a className="hover:text-foreground transition-colors" href="#">Documentation</a></li>
-              <li><a className="hover:text-foreground transition-colors" href="#">API Resources</a></li>
-              <li><a className="hover:text-foreground transition-colors" href="#">Network Status</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="/docs">Documentation</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="/api-resources">API Resources</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="/status">Network Status</a></li>
             </ul>
           </div>
           <div className="space-y-4">
@@ -22,15 +22,15 @@ export default function Footer() {
             <ul className="space-y-3 text-foreground/40">
               <li><a className="hover:text-foreground transition-colors" href="/#network">About Us</a></li>
               <li><a className="hover:text-foreground transition-colors" href="mailto:admin@xephorix.ai">Contact Us</a></li>
-              <li><a className="hover:text-foreground transition-colors" href="#">Careers</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="/careers">Careers</a></li>
             </ul>
           </div>
           <div className="space-y-4">
             <p className="text-forsythia font-bold">LEGAL</p>
             <ul className="space-y-3 text-foreground/40">
-              <li><a className="hover:text-foreground transition-colors" href="#">Terms & Conditions</a></li>
-              <li><a className="hover:text-foreground transition-colors" href="#">Privacy Policy</a></li>
-              <li><a className="hover:text-foreground transition-colors" href="#">Security & SOC 2</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="/terms">Terms & Conditions</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="/terms">Privacy Policy</a></li>
+              <li><a className="hover:text-foreground transition-colors" href="/terms">Security & SOC 2</a></li>
             </ul>
           </div>
         </div>

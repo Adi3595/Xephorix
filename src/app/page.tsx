@@ -15,6 +15,7 @@ import SecurityCompliance from "@/components/sections/SecurityCompliance";
 import UseCases from "@/components/sections/UseCases";
 import ReviewsGrid from "@/components/sections/ReviewsGrid";
 import Architecture from "@/components/sections/Architecture";
+import Integrations from "@/components/sections/Integrations";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <PlatformShowcase />
       <Architecture />
       <UseCases />
+      <Integrations />
       <PricingMatrix />
       <PerformanceMetrics />
       <Testimonials />

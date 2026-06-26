@@ -1,8 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/components/ui/Logo";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -11,7 +11,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full z-50 py-8 px-4 md:px-16 transition-all duration-500 ease-out bg-transparent">
       <div className="max-w-7xl mx-auto w-full flex justify-between items-center">
         <Link href="/" className="flex items-center gap-3 group">
-        <Logo className="w-8 h-8 text-foreground group-hover:text-forsythia transition-colors duration-300" />
+        <Image src="/xephorix.png" alt="Xephorix Logo" width={32} height={32} className="object-contain" unoptimized quality={100} />
         <div className="font-mono text-[16px] tracking-[0.1em] text-foreground uppercase font-bold flex items-center group-hover:text-forsythia transition-colors duration-300">
           XEPHORIX
         </div>
