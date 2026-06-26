@@ -64,12 +64,24 @@ Xephorix operates on a deeply technical 3-Layer Brutalist Architecture. Click to
 
 ## 💻 Tech Stack
 
-| Domain | Technology | Purpose |
-| :--- | :--- | :--- |
-| **Framework** | Next.js 14+ (App Router) | High-performance React rendering |
-| **Styling** | Tailwind CSS | Brutalist utility classes & custom grids |
-| **Typing** | TypeScript | Strict type safety for complex neural logic |
-| **Animations**| Pure CSS & React | Zero-dependency micro-interactions |
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS (Brutalist, low-opacity borders, stark typography)
+- **3D Graphics:** Three.js / WebGL (Interactive particle networks)
+- **Icons:** Material Symbols & Custom Geometric SVGs
+- **Deployment:** Vercel Edge Network
+
+---
+
+## 🚀 Deployment (Vercel)
+
+Deploying Xephorix to Vercel takes less than 2 minutes.
+
+1. Create an account on [Vercel](https://vercel.com/)
+2. Click **Add New Project** and import your GitHub repository (`Adi3595/Xephornix`).
+3. Vercel will automatically detect **Next.js**.
+4. Click **Deploy**. The site will build and deploy instantly to the global edge network!
+
+*(Alternatively, run `npx vercel` in your terminal to deploy from the CLI).*
 
 ---
 
