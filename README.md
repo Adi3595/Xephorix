@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/xephorix.png" alt="Xephorix Logo" width="140" />
+  <img src="public/xephorix.svg" alt="Xephorix Logo" width="140" />
   
   <br />
   
