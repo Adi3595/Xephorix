@@ -16,6 +16,31 @@ const jetBrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Xephorix | Autonomous Infrastructure",
   description: "Enterprise workflow orchestration and neural infrastructure automation.",
+  keywords: ["autonomous", "infrastructure", "neural engine", "edge computing", "webassembly", "zero-trust", "decentralized"],
+  authors: [{ name: "Xephorix Systems" }],
+  metadataBase: new URL("https://xephorix.ai"),
+  openGraph: {
+    title: "Xephorix | Autonomous Infrastructure",
+    description: "Enterprise workflow orchestration and neural infrastructure automation.",
+    url: "https://xephorix.ai",
+    siteName: "Xephorix",
+    images: [
+      {
+        url: "/images/neural_nodes.png",
+        width: 1200,
+        height: 630,
+        alt: "Xephorix Neural Edge Infrastructure",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Xephorix | Autonomous Infrastructure",
+    description: "Enterprise workflow orchestration and neural infrastructure automation.",
+    images: ["/images/neural_nodes.png"],
+  },
 };
 
 export default function RootLayout({
